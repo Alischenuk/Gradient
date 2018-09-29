@@ -1,0 +1,30 @@
+body {
+	vw: 100%;
+	background: #6EA8E8;
+}
+.rectangle {
+	margin: 40px auto;
+	width: 400px;
+	height: 250px;
+	background: #ACD5E8;
+	z-index: 1;
+	padding: 25px;
+	box-sizing: border-box; 
+}
+.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	z-index: 2;
+	background: radial-gradient(#ACD5E8, #6EA8E8, #5A70FF);
+	margin: 0 auto;
+}
+p {
+	text-align: center;
+	font-size: 26px;
+	color: #2741FF;
+}
+span {
+	font-size: 34px;
+	color: #ACD5E8;
+}
